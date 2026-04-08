@@ -851,6 +851,10 @@ footer {
         text-align: center;
         gap: 3rem;
     }
+    .cta-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .profile-container {
         width: 300px;
         height: 300px;
@@ -865,6 +869,13 @@ footer {
     .split-section {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .contact-card {
+        padding: 3rem;
     }
     .footer-grid {
         grid-template-columns: 1fr;
@@ -887,5 +898,37 @@ footer {
     }
     .nav-links {
         display: none;
+    }
+    .role {
+        font-size: 2rem;
+    }
+    .greeting span {
+        font-size: 2rem;
+    }
+    .profile-container {
+        width: 250px;
+        height: 250px;
+    }
+    .pulse-ring {
+        width: 280px;
+        height: 280px;
+    }
+    .contact-card {
+        padding: 2rem 1.5rem;
+    }
+    .about-card {
+        padding: 2rem 1.5rem;
+    }
+    .skill-card {
+        padding: 2rem 1.5rem;
+    }
+    .cert-card {
+        padding: 2rem 1.5rem;
+    }
+    .info-item {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
     }
 }
