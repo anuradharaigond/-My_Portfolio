@@ -1,0 +1,10 @@
+# Ignore system/editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code settings
+.vscode/
+
+# Node (if ever used)
+node_modules/

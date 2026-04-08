@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuradha | CS Student Portfolio</title>
+    <meta name="description" content="Professional portfolio of Anuradha, a Computer Science student, Future Software Engineer, and AI enthusiast.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-overlay"></div>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">ANURADHA<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobile-toggle"><i data-lucide="menu"></i></div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Dynamic Intro Hero (Centered) -->
+        <section id="intro-hero" class="hero-intro">
+            <div class="container intro-container">
+                <div class="animated-text-wrapper">
+                    <span class="animated-line" id="animated-line">Future Software Engineer</span>
+                </div>
+                <p class="scroll-down-hint">Scroll to explore <i data-lucide="chevron-down"></i></p>
+            </div>
+        </section>
+
+        <!-- Main Hero Section (Split) -->
+        <section id="home" class="hero-main container">
+            <div class="hero-image-side">
+                <div class="pulse-ring"></div>
+                <div class="profile-container">
+                    <img src="anuradha_profile.png" alt="Anuradha" class="profile-img">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h2 class="greeting">Hello, I'm <span>ANURADHA</span></h2>
+                <h1 class="role">And I'm a <span>Computer Science Student</span></h1>
+                <p class="summary">I am a passionate Computer Science student with a strong interest in Artificial Intelligence and software development. I actively participate in hackathons and continuously improve my technical and problem-solving skills.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="gradient-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-card">
+                        <p>I am currently pursuing Computer Science and have participated in multiple hackathons. I am also a member of IEEE. I am enthusiastic about learning new technologies and building innovative solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Skills</h2>
+                    <div class="gradient-line"></div>
+                </div>
+                <div class="skills-grid">
+
+                    <!-- Skill 1: Python -->
+                    <div class="skill-card">
+                        <div class="skill-icon-bg"><i data-lucide="terminal"></i></div>
+                        <h3>Python</h3>
+                        <ul class="skill-sublist">
+                            <li>Data Analysis & Scripting</li>
+                            <li>Automation & Web Scraping</li>
+                            <li>Libraries: NumPy, Pandas</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill 2: Web Development -->
+                    <div class="skill-card">
+                        <div class="skill-icon-bg"><i data-lucide="globe"></i></div>
+                        <h3>Web Development</h3>
+                        <ul class="skill-sublist">
+                            <li>HTML, CSS & JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>React & Next.js Basics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill 3: AI / Machine Learning -->
+                    <div class="skill-card">
+                        <div class="skill-icon-bg"><i data-lucide="brain"></i></div>
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-sublist">
+                            <li>Supervised & Unsupervised Learning</li>
+                            <li>Scikit-learn & TensorFlow</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill 4: Data Structures & Algorithms -->
+                    <div class="skill-card">
+                        <div class="skill-icon-bg"><i data-lucide="git-branch"></i></div>
+                        <h3>DSA & Problem Solving</h3>
+                        <ul class="skill-sublist">
+                            <li>Arrays, Trees & Graphs</li>
+                            <li>Sorting & Searching Algorithms</li>
+                            <li>Competitive Programming</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill 5: Cloud & Databases -->
+                    <div class="skill-card">
+                        <div class="skill-icon-bg"><i data-lucide="cloud"></i></div>
+                        <h3>Cloud & Databases</h3>
+                        <ul class="skill-sublist">
+                            <li>IBM Cloud Fundamentals</li>
+                            <li>SQL & DBMS</li>
+                            <li>Git & Version Control</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Certifications</h2>
+                    <div class="gradient-line"></div>
+                </div>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-badge"><i data-lucide="award"></i></div>
+                        <h4>IBM Certification</h4>
+                        <p>Cloud and Data Science Specialization</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-badge"><i data-lucide="trophy"></i></div>
+                        <h4>Hackathon Excellence</h4>
+                        <p>Awarded for innovation and speed in development</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-badge"><i data-lucide="server"></i></div>
+                        <h4>DBMS Specialist</h4>
+                        <p>Database Management Foundations</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-badge"><i data-lucide="binary"></i></div>
+                        <h4>DSA Mastery</h4>
+                        <p>Data Structures and Competitive Programming</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages & Achievements -->
+        <section id="achievements" class="achievements-lang container">
+            <div class="split-section">
+                <div class="achievements-side">
+                    <div class="section-header">
+                        <h2>Achievements</h2>
+                        <div class="gradient-line"></div>
+                    </div>
+                    <ul class="achieve-list">
+                        <li><i data-lucide="zap"></i> Participated in major Global Hackathons</li>
+                        <li><i data-lucide="users"></i> Active Member of IEEE Student Branch</li>
+                    </ul>
+                </div>
+                <div class="languages-side">
+                    <div class="section-header">
+                        <h2>Languages</h2>
+                        <div class="gradient-line"></div>
+                    </div>
+                    <div class="lang-grid">
+                        <span class="lang-pill">Hindi</span>
+                        <span class="lang-pill">Kannada</span>
+                        <span class="lang-pill">Telugu</span>
+                        <span class="lang-pill">Marathi</span>
+                        <span class="lang-pill">English</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact container">
+            <div class="contact-card">
+                <div class="section-header">
+                    <h2>Let's Connect</h2>
+                    <div class="gradient-line"></div>
+                    <p class="contact-subtitle">I'm always open to discussing new projects, internships, or innovative opportunities to be part of your vision. Reach out and let's build something great together.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-form-side">
+                        <form class="cta-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info-side">
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>anuradha@email.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="award"></i></div>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Open for Internships & Full-time Roles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>ANURADHA<span>.</span></h3>
+                    <p>Computer Science Student | Building the future through code.</p>
+                </div>
+                <div class="footer-social">
+                    <div class="social-icons">
+                        <a href="#" aria-label="Github"><i data-lucide="github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <p><i data-lucide="mail"></i> anuradha@email.com</p>
+                    <p><i data-lucide="map-pin"></i> India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ANURADHA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
